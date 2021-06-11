@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ef" green="f8" red="f8" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" pref="1269" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="back" min="-2" pref="47" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="back" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="542" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="back">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ef" green="f8" red="f8" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/magazin/alimentar/back.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ef" green="f8" red="f8" type="rgb"/>
+                </Property>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="I. Informa&#x21b;ii generale&#xa;&#xa;Confiden&#x21b;ialitatea datelor dumneavoastr&#x103; cu caracter personal reprezint&#x103; una dintre preocup&#x103;rile principale ale Luall S.A., &#xee;n calitate de operator de date.&#xa;&#xa;Acest document are rolul de a v&#x103; informa cu privire la prelucrarea datelor dumneavoastr&#x103; cu caracter personal, &#xee;n contextul utiliz&#x103;rii paginii de internet.&#xa;&#xa;&#xa;II. Categoriile de date cu caracter personal prelucrate&#xa;&#xa;1.  Dac&#x103; sunte&#x21b;i client al Luall, Luall Rom&#xe2;nia va prelucra datele dumneavoastr&#x103; cu caracter personal, cum ar fi nume &#x15f;i prenume, telefon, adresa de e-mail,&#xa;adresa de facturare, adresa de livrare, date referitoare la modul &#xee;n care utiliza&#x21b;i Luall, de exemplu comportamentul/preferin&#x163;ele/obi&#x15f;nuin&#x21b;ele dumneavoastr&#x103;&#xa;&#xee;n cadrul Luall, precum &#x219;i orice alte categorii de date pe care le furniza&#x21b;i &#xee;n mod direct &#xee;n contextul cre&#x103;rii contului de utilizator, &#xee;n contextul&#xa;plas&#x103;rii unei comenzi prin Luall.ro sau &#xee;n orice alt mod care rezult&#x103; din utilizarea Luall.ro.&#xa;&#xa;2. Dac&#x103; sunte&#x21b;i vizitator al Luall, Luall Romania va prelucra datele dumneavoastr&#x103; cu caracter personal pe care le furniza&#x21b;i &#xee;n mod direct &#xee;n contextul &#xa;utiliz&#x103;rii Luall.ro, cum ar fi datele pe care le furniza&#x21b;i &#xee;n cadrul formularului pentru  &#xee;ntreb&#x103;ri sau reclama&#x21b;ii, &#xee;n m&#x103;sura &#xee;n care &#xee;l completa&#x21b;i.&#xa;&#xa;3. Dac&#x103; aplica&#x21b;i pentru un job &#xee;n cadrul Luall Rom&#xe2;nia &#xee;n calitate de candidat, prin accesarea sec&#x21b;iunii Cariere disponibil&#x103; pe Luall.ro sau prin orice &#xa;alt mod, Luall Rom&#xe2;nia va prelucra datele dumneavoastr&#x103; cu caracter personal pe care le furniza&#x21b;i &#xee;n acest context, cum ar fi nume, prenume,&#xa;adresa de e-mail, telefon, experien&#x21b;&#x103; precum &#x219;i orice alte date incluse &#xee;n documentele pe care alege&#x21b;i s&#x103; ni le furnizati.&#xa;&#xa;4. Dac&#x103; sunte&#x21b;i persoan&#x103; de contact a Partenerilor sau poten&#x21b;ialilor Parteneri, Luall Rom&#xe2;nia prelucreaz&#x103; datele dumneavoastre&#x103;de contact, &#xa;cum ar fi nume &#x219;i prenume, adres&#x103; de e-mail &#x219;i telefon pe care le furniza&#x21b;i &#xee;n contextul ini&#x21b;ierii sau desf&#x103;&#x219;ur&#x103;rii rela&#x21b;iei contractuale cu Partenerii&#xa;sau poten&#x21b;ialii Parteneri.&#xa;&#xa;&#xa;III. Scopurile &#x219;i temeiurile de prelucr&#x103;rii&#xa;&#xa;1. Dac&#x103; sunte&#x21b;i client al luall.ro, Luall Rom&#xe2;nia prelucreaz&#x103; datele dumneavoastr&#x103; cu caracter personal astfel:&#xa;&#xa;Pentru desf&#x103;&#x219;urarea rela&#x21b;iei contractuale dintre dumneavoastr&#x103; &#x15f;i luall.ro, respectiv pentru preluarea, validarea, expedierea &#x15f;i facturarea comenzii&#xa;plasate pe luall.ro, informarea dumneavoastr&#x103; asupra st&#x103;rii comenzii, organizarea returului de produse comandate etc.&#xa;&#xa;Temei: Prelucrarea datelor dumneavoastr&#x103; &#xee;n acest scop are la baz&#x103; contractul &#xee;ncheiat &#xee;ntre dumneavoastr&#x103; &#x219;i Carrefour Rom&#xe2;nia, definit &#xee;n &#xa;cuprinsul Termenelor &#x219;i Condi&#x21b;iilor. Furnizarea datelor dumneavoastr&#x103; cu caracter personal este necesar&#x103;. Refuzul furniz&#x103;rii datelor poate avea drept&#xa;consecin&#x21b;&#x103; imposibilitatea derul&#x103;rii raporturilor contractuale dintre dumneavoastr&#x103; &#x219;i Luall Rom&#xe2;nia.&#xa;&#xa;Pentru &#xee;ndeplinirea obliga&#x21b;iilor legale care incumb&#x103; Carrefour Rom&#xe2;nia &#xee;n contextul serviciilor prestate prin intermediul luall.ro, &#xa;inclusiv a obliga&#x21b;iilor &#xee;n materie fiscal&#x103;, precum &#x219;i &#xee;n materie de arhivare.&#xa;&#xa;Temei: Prelucrarea datelor dumneavoastr&#x103; pentru acest scop este necesar&#x103; &#xee;n baza unor obliga&#x21b;ii legale. Furnizarea datelor dumneavoastr&#x103; &#xee;n acest scop&#xa;este necesar&#x103;. Refuzul furniz&#x103;rii datelor poate avea drept consecin&#x21b;&#x103; imposibilitatea Luall Rom&#xe2;nia de a respecta obliga&#x21b;iile legale care &#xee;i revin&#xa;&#x219;i deci &#xee;n imposibilitatea de a v&#x103; oferi serviciile prin luall.ro.&#xa;&#xa;&#xce;n scopul comunicarii unor materiale comerciale, newsletter si/sau alerte din partea societatii, constand in informatii cu privire la ofertele de &#xa;produse/servicii, invitatii de a participa la campanii si loterii, studii, chestionare, sondaje de opinie, vouchere si/sau tichete cadou oferite in zile&#xa;onomastice transmise prin posta electronica (e-mail, sms) si/sau apel telefonic, &#xee;n principal, &#xee;n vederea &#xee;mbun&#x103;t&#x103;&#x163;iri experien&#x21b;ei oferite pe luall.ro. &#xa;&#xa;Temei: Prelucrarea datelor dumneavoastr&#x103; pentru acest scop are la baz&#x103; consim&#x21b;&#x103;m&#xe2;ntul dumneavoastr&#x103;, dac&#x103; alege&#x21b;i s&#x103;-l furniza&#x21b;i.&#xa;&#xa;V&#x103; pute&#x21b;i exprima consim&#x21b;&#x103;m&#xe2;ntul pentru prelucrarea datelor &#xee;n acest scop prin bifarea c&#x103;su&#x21b;ei corespunz&#x103;toare de la momentul cre&#x103;rii contului,&#xa;sau ulterior cre&#x103;rii contului, la sec&#x21b;iunea Informa&#x21b;iile contului meu. Pentru dezabonarea de la primirea unor astfel de comunic&#x103;ri comerciale pute&#x21b;i&#xa;folosi op&#x163;iunea de la finalul fiec&#x103;rui e-mail con&#x163;in&#xe2;nd comunic&#x103;ri comerciale. &#xa;&#xa;Furnizarea datelor dumneavoastr&#x103; &#xee;n acest scop este voluntar&#x103;. Refuzul furniz&#x103;rii consim&#x21b;&#x103;m&#xe2;ntului pentru prelucrarea datelor dumneavoastr&#x103; &#xee;n acest scop&#xa;nu va avea urm&#x103;ri negative pentru dumneavoastr&#x103;.&#xa;&#xa;&#xce;n scopul efectu&#x103;rii diverselor analize, raport&#x103;ri privind modul de func&#x21b;ionare a luall.ro, realizarea de profiluri de preferin&#x163;e de consum, &#xee;n&#xa;principal, &#xee;n vederea &#xee;mbun&#x103;t&#x103;&#x163;iri experien&#x21b;ei oferite pe luall.ro.&#xa;&#xa;Temei: Prelucrarea datelor dumneavoastr&#x103; pentru acest scop are la baz&#x103; interesul legitim al Luall Rom&#xe2;nia de a &#xee;mbun&#x103;t&#x103;&#x21b;ii permanent experien&#x21b;a&#xa;clien&#x21b;ilor pe luall.ro.&#xa;&#xa;Furnizarea datelor dumneavoastr&#x103; &#xee;n acest scop este voluntar&#x103;. Refuzul furniz&#x103;rii datelor pentru acest scop nu va avea urm&#x103;ri negative pentru &#xa;dumneavoastr&#x103;.&#xa; &#xa;2. Dac&#x103; alege&#x21b;i s&#x103; aplica&#x21b;i la un job prin luall.ro sau prin orice alt mod, &#xee;n calitate de candidat, Luall prelucreaz&#x103; datele dumneavoastr&#x103; &#xa;cu caracter personal astfel:&#xa;pentru desf&#x103;&#x219;urarea activit&#x103;&#x21b;ilor specifice de recrutare pentru anumite posturi vacante &#xee;n cadrul Luall Rom&#xe2;nia.&#xa;&#xa;Temei: Prelucrarea datelor dumneavoastr&#x103; pentru acest scop are la baz&#x103; demersurile la cererea dumneavoastr&#x103; pentru &#xee;ncheierea unui contract. &#xce;n cazul &#xee;n&#xa;care nu ve&#x21b;i fi selectat petru postul pentru care a&#x21b;i aplicat, Luall Rom&#xe2;nia va continua s&#x103; prelucreze datele dumneavoastr&#x103; &#xee;n baza interesului s&#x103;u&#xa;legitim de a v&#x103; avea &#xee;n vedere &#x219;i pentru alte posturi vacante similare cu cele pentru care a&#x21b;i aplicat ini&#x21b;ial.&#xa;&#xa;Furnizarea datelor dumneavoastr&#x103; &#xee;n acest scop este voluntar&#x103;. Refuzul furniz&#x103;rii datelor poate avea drept consecin&#x21b;&#x103; imposibilitatea Luall Rom&#xe2;nia de a &#xa;v&#x103; avea &#xee;n vedere &#xee;n procesul de recrutare pentru diferite posturi.&#xa;&#xa;3. Dac&#x103; sunte&#x21b;i persoan&#x103; de contact a Partenerilor sau poten&#x21b;ialilor Parteneri, Luall Rom&#xe2;nia prelucreaz&#x103; datele dumneavoastr&#x103; cu caracter &#xa;personal astfel:&#xa;&#xa;Pentru ini&#x21b;ierea sau desf&#x103;&#x219;urarea rela&#x21b;iei contractuali dintre Luall Rom&#xe2;nia &#x219;i Parteneri sau poten&#x21b;iali Parteneri&#xa;&#xa;Temei: Prelucrarea datelor dumneavoastr&#x103; pentru acest scop are la baz&#x103; interesul legitim al Luall de a ini&#x21b;ia &#x219;i desf&#x103;&#x219;ura rela&#x21b;iile contractuale &#xee;n&#xa;contextul oferirii serviciilor pe luall.ro. Refuzul furniz&#x103;rii datelor pentru acest scop poate avea drept consecin&#x21b;e imposibilitatea&#xa;Luall de a-&#x219;i desf&#x103;&#x219;ura activitatea.  &#xa;&#xa;&#xa;IV. Dezv&#x103;luirea datelor cu caracter personal&#xa;&#xa;Pentru &#xee;ndeplinirea scopurilor de prelucrare, Luall Rom&#xe2;nia poate dezv&#x103;lui datele dumneavoastr&#x103; c&#x103;tre Parteneri, c&#x103;tre societ&#x103;&#x21b;ile afiliate&#xa;Luall Rom&#xe2;nia, c&#x103;tre ter&#x21b;e persoane sau entit&#x103;&#x21b;i care sprijin&#x103; Luall Rom&#xe2;nia &#xee;n oferirea de servicii prin luall.ro (de exemplu firme de curierat,&#xa;furnizori de servicii IT), ori c&#x103;tre autorit&#x103;&#x21b;ile publice centrale/locale, &#xee;n urm&#x103;toarele cazuri exemplificativ enumerate:&#xa;&#xa;Pentru administrarea luall.ro, inclusiv pentru intermedierea rela&#x21b;iei dintre dumneavoastr&#x103; &#x219;i Partenerii no&#x219;tri care comercializeaz&#x103; produse prin&#xa;aceast&#x103; pagin&#x103; de internet, &#xee;n m&#x103;sura &#xee;n comanda&#x21b;i produse v&#xe2;ndute de ace&#x219;tia;&#xa;&#xa;&#xce;n situa&#x21b;iile &#xee;n care aceast&#x103; comunicare ar fi necesar&#x103; pentru atribuirea de premii sau alte facilit&#x103;&#x21b;i clien&#x21b;ilor, ob&#x21b;inute ca urmare a particip&#x103;rii&#xa;lor la diverse campanii promo&#x21b;ionale organizate de c&#x103;tre Luall Rom&#xe2;nia prin luall.ro;&#xa;&#xa;Pentru men&#x21b;inerea, personalizarea &#x219;i &#xee;mbun&#x103;t&#x103;&#x21b;irea luall.ro &#x219;i a serviciilor derulate prin intermediul ei;&#xa;&#xa;Pentru efectuarea analizei datelor, testarea &#x219;i cercetarea, monitorizarea tendin&#x21b;elor de utilizare &#x219;i activitate, dezvoltarea caracteristicilor de&#xa;siguran&#x21b;&#x103; &#x219;i autentificarea utilizatorilor;&#xa;&#xa;Pentru transmiterea de comunic&#x103;ri comerciale de marketing, &#xee;n condi&#x21b;iile &#x219;i limitele prev&#x103;zute de lege;&#xa;&#xa;Atunci c&#xe2;nd dezv&#x103;luirea datelor cu caracter personal este prev&#x103;zut&#x103; de lege etc.&#xa;&#xa;Pentru prelucrarea de date derulat&#x103; de Partenerii cu care intra&#x21b;i &#xee;n rela&#x21b;ie, potrivit Termenelor &#x219;i condi&#x21b;iilor, prin intermediul luall.ro &#x219;i care&#xa;prelucreaz&#x103; datele dumneavoastr&#x103; &#xee;n nume propriu, &#xee;n calitate de operatori de date, v&#x103; rug&#x103;m s&#x103; ave&#x21b;i &#xee;n vedere politicile de confiden&#x21b;ialitate oferite&#xa;de acei Parteneri. Luall Rom&#xe2;nia nu are niciun control asupra modului &#xee;n care v&#x103; sunt prelucrate datele de c&#x103;tre ace&#x219;tia.&#xa;&#xa;&#xa;&#xa; "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
